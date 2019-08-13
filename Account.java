@@ -4,6 +4,9 @@ public class Account {
 	private int accNo;
 	private String accName, accBal;
 	
+	public Account(){
+		
+	}
 	public Account(int accNo, String name, String bal){
 		this.accNo = accNo;
 		this.accName = name;
